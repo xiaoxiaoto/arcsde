@@ -1,0 +1,4 @@
+1.配置ST_Geometry：
+   查询oracle依赖库：select t.* from user_libraries t;
+   更新或创建依赖库：create or replace library ST_SHAPELIB as'D:\ArcGISFiles\SDE\ArcSDE\ora11gexe\bin\st_shapelib.dll';
+   http://resources.arcgis.com/zh-cn/help/main/10.2/index.html#/na/002n00000091000000/
